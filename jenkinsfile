@@ -2,7 +2,7 @@ pipeline {
     agent any
 	
     environment {
-        GOOGLE_APPLICATION_CREDENTIALS = credentials('gcp-key')
+        AWS_APPLICATION_CREDENTIALS = credentials('aws-key')
       	GIT_TOKEN = credentials('git-token')
     }
 	
